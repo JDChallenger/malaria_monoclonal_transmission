@@ -18,7 +18,7 @@ m5me: Slope correction for the country for the DMFA data
 
 m6me: Slope corrections for both the assay used, and the country for the DMFA data
 
-Note that only model m1me is present for Pfs230. For Pfs25 & Pfs48/45, we use the 'compare' function from the rethinking package to assess the four models' goodness of fit. This information is displayed in Supplementary Table 5. The 'ensemble' function (from the same package) is then used to generate the plots displayed in Figure 1, using samples from the model ensemble.
+Note that only model m1me is present for Pfs230. For Pfs25 & Pfs48/45, we use the 'compare' function from the rethinking package to assess the four models' goodness of fit. This information is displayed in Supplementary Table 5 in the article. The 'ensemble' function (from the same package) is then used to generate the plots displayed in Figure 1, using samples from the model ensemble.
 
 The script 'collate_Figure1.R' can be run after the regression analyses have been performed, to join all the panels together. Specifically, run the scripts 'TRA_regression_4845.R', 'TRA_regression_25', & 'TRA_regression_230' first (in any order, no need to run 'ViewData.R' beforehand). Please note that the regression analyses may take a few minutes to run.
 
