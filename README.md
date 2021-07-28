@@ -11,8 +11,11 @@ There are 3 scripts used for the regression analysis displayed in Figure 1 (summ
 We use a consistent notation when naming the regression models, specifically: 
 
 m1me: one slope for all the data
+
 m2me: Slope correction for the assay used
+
 m5me: Slope correction for the country for the DMFA data
+
 m6me: Slope corrections for both the assay used, and the country for the DMFA data
 
 Note that only model m1me is present for Pfs230. For Pfs25 & Pfs48/45, we use the 'compare' function from the rethinking package to assess the four models' goodness of fit. This information is displayed in Supplementary Table 5. The 'ensemble' function (from the same package) is then used to generate the plots displayed in Figure 1, using samples from the model ensemble.
