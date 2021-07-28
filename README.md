@@ -1,6 +1,6 @@
 # About these files
 
-The files in this folder accompany the article **Monoclonal antibodies block transmission of genetically diverse Plasmodium falciparum strains to mosquitoes**, which will shortly be published in **NPJ Vaccines**. The R scripts collected here were used to perform the regression analysis presented in the paper, and generate Figure 1 & Figure 3A. 
+The files in this folder accompany the article **Monoclonal antibodies block transmission of genetically diverse Plasmodium falciparum strains to mosquitoes** by Jore, de Jong, Meerstein-Kessel *et al.*, which will shortly be published in **NPJ Vaccines**. The R scripts collected here were used to perform the regression analysis presented in the paper, and generate Figure 1 & Figure 3A. 
 
 Once the files have been downloaded, we recommend double-clicking on the 'Final_analyses.Rproj' file (assuming RStudio is already installed) to open the R project. The advantage of this is that the RStudio session should start in the correct working directory (where the data files are stored). 
 
